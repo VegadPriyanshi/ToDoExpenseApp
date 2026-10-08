@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ToDoExpanseApp</string>
+    <string name="title_activity_dashboardactivity1">dashboardactivity1</string>
+    <string name="title_activity_add_expense">AddExpenseActivity</string>
+    <string name="title_activity_dashboard1">Dashboard1</string>
+    <string name="webClient">232023458505-kfr4gp9on3hkd8a7cdlrd05h3fgbnnft.apps.googleusercontent.com</string>
+</resources>

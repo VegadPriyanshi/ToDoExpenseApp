@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <!-- App Icon -->
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expense Tracker"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <!-- Message -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in to keep your data safe
+and sync expenses across devices"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <!-- Google Sign In Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGoogleSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Sign in with Google"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        app:icon="@drawable/ic_google"
+        app:iconPadding="10dp"
+        app:backgroundTint="#4285F4"
+        android:textColor="@android:color/white"/>
+
+    <!-- Skip Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSkip"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Skip for now"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"
+        app:backgroundTint="#E0E0E0"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ToDoExpanseApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Customize your theme here if needed -->
+        <item name="android:statusBarColor">@android:color/white</item>
+
+        <!-- Make status bar icons dark (important) -->
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+
+    <style name="Theme.ToDoExpanseApp.Splash" parent="Theme.SplashScreen">
+
+        <!-- Splash background color -->
+        <item name="windowSplashScreenBackground">@android:color/white</item>
+
+        <!-- Your app logo -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+        <!-- Optional icon background -->
+        <item name="windowSplashScreenIconBackgroundColor">@android:color/white</item>
+
+        <!-- After splash go to main theme -->
+        <item name="postSplashScreenTheme">@style/Theme.ToDoExpanseApp</item>
+
+    </style>
+
+</resources>
